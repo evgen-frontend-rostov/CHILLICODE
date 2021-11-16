@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 30px 1fr;
+
+
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+}
+
+.header_input {}
+
+.header_btn {}
+
+main {
+    display: grid;
+    grid-template-areas: "w s";
+}
+
+.wall {
+    grid-area: w;
+}
+
+.wall_post {
+    /*margin: 20px;*/
+    border: 1px solid black;
+}
+
+.btn_favorites {}
+
+.wall_comments {
+    /*margin: 20px;*/
+    border: 1px solid black;
+}
+.statistics {
+    /*margin: 20px;*/
+    border: 1px solid black;
+    grid-area: s;
+}
