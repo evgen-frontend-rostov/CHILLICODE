@@ -36,6 +36,12 @@ main {
 
 .wall_item_post {
     border: 1px solid black;
+    padding: 5px;
+}
+
+.wall_item_post_title {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .btn_favorites {}
